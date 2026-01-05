@@ -40,8 +40,19 @@ A simple, self-hosted habit tracking web application built with Python Flask and
    ```
 
 2. Install Python dependencies:
+
+   **Option A: Using pip**
    ```bash
    pip install -r requirements.txt
+   ```
+
+   **Option B: Using uv (faster)**
+   ```bash
+   # Install uv if you don't have it
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+
+   # Install dependencies
+   uv pip install -r requirements.txt
    ```
 
 3. Start the Flask server:
@@ -135,7 +146,10 @@ For a quick self-hosted setup on Ubuntu:
 1. Install dependencies:
    ```bash
    sudo apt update
-   sudo apt install python3 python3-pip nodejs npm
+   sudo apt install python3 nodejs npm
+
+   # Install uv (recommended) or use python3-pip
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    ```
 
 2. Clone and setup the application (follow installation steps above)
