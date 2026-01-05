@@ -79,11 +79,11 @@ A simple, self-hosted habit tracking web application built with Python Flask and
    npm run dev
    ```
 
-   The frontend will run on `http://localhost:3000`
+   The frontend will run on `http://localhost:5173`
 
 ## Usage
 
-1. Open your browser and navigate to `http://localhost:3000`
+1. Open your browser and navigate to `http://localhost:5173`
 
 2. **Add a habit**: Type a habit name in the input field and click "Add"
 
@@ -167,7 +167,7 @@ For a quick self-hosted setup on Ubuntu:
    cd frontend && npm run dev
    ```
 
-4. Access the app at `http://your-server-ip:3000`
+4. Access the app at `http://your-server-ip:5173`
 
 ## Database
 
