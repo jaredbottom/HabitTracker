@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Calendar heatmap styles */
+.react-calendar-heatmap {
+  @apply w-full;
+}
+
+.react-calendar-heatmap .color-empty {
+  @apply fill-gray-100;
+}
+
+.react-calendar-heatmap .color-scale-1 {
+  @apply fill-green-200;
+}
+
+.react-calendar-heatmap .color-scale-2 {
+  @apply fill-green-300;
+}
+
+.react-calendar-heatmap .color-scale-3 {
+  @apply fill-green-400;
+}
+
+.react-calendar-heatmap .color-scale-4 {
+  @apply fill-green-500;
+}
+
+.react-calendar-heatmap .color-scale-5 {
+  @apply fill-green-600;
+}
+
+.react-calendar-heatmap text {
+  @apply text-xs fill-gray-600;
+}
